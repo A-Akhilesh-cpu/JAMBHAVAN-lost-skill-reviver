@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jambhavan</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>JAMBHAVAN</h1>
+  <div class="subtitle">Your power was never lost.</div>
+
+  <!-- FORM START -->
+  <form id="revival-form" class="card">
+
+    <label>Skill you once knew</label>
+    <input id="skill" placeholder="Eg: Coding, Guitar" required>
+
+    <label>How long has it been?</label>
+    <div class="row">
+      <input id="duration_value" type="number" placeholder="2" required>
+      <div id="durationDropdown" class="custom-dropdown">
+  <div class="selected">Months</div>
+  <div class="options">
+    <div class="option">Months</div>
+    <div class="option">Years</div>
+  </div>
+</div>
+</div>
+<input type="hidden" id="duration_unit" value="Months">
+
+
+    <label>How did you learn it earlier?</label>
+
+<div class="custom-dropdown" id="learnDropdown">
+  <div class="selected">Select</div>
+
+  <div class="options">
+    <div class="option">YouTube / Online</div>
+    <div class="option">Book / PDF</div>
+    <div class="option">Course / Coaching</div>
+    <div class="option">Self Practice</div>
+  </div>
+</div>
+
+<input type="hidden" id="learning_source" required>
+
+
+    <input
+      id="resource"
+      placeholder="Paste link or mention book / resource"
+    >
+
+    <label>Why do you want to regain it?</label>
+    <input id="reason" placeholder="Career / Confidence / Passion" required>
+
+    <button id="begin-btn" type="submit">
+      Begin the reminder
+    </button>
+
+  </form>
+  <!-- FORM END -->
+
+  <!-- RESULT -->
+  <div id="revival-path"></div>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
