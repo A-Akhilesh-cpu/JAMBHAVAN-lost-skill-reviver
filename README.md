@@ -4,6 +4,8 @@ Many individuals abandon skills they once learned due to lack of time, confidenc
 Restarting a forgotten skill feels overwhelming because users do not know where to begin.
 Jambavan addresses this problem by providing structured, emotionally motivating, AI-powered guidance to help users revive forgotten skills.
 
+##Explanation Video
+https://drive.google.com/file/d/1lk3eyqn-BpMKznivJCw-z1uBNZR8CeRu/view?usp=sharing
 
 ## System Architecture
 
